@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## King-Ironman-30Day-Challenge
 
 You can use the [editor on GitHub](https://github.com/tinatyc/King-Ironman-30Day-Challenge/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 

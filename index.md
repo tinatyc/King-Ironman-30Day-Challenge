@@ -8,13 +8,13 @@
 並反應給我知道，我會儘快修復的！( • ̀ω •́ )
 
 ```
-30天串接30個Google APIs的服務應用 系列文 [官方iT邦連結](https://ithelp.ithome.com.tw/users/20103130/ironman/1310)
+30天串接30個Google APIs的服務應用 系列文 官方iT邦連結[https://ithelp.ithome.com.tw/users/20103130/ironman/1310](https://ithelp.ithome.com.tw/users/20103130/ironman/1310)
 
 ---
 
 ### 系列文實作連結
 
-**[Day1]** 前言 - [第二次參加鐵人賽的決心，以及粗談我選擇的主題](https://ithelp.ithome.com.tw/articles/10190579)
+**[Day1]** 第二次參加鐵人賽的決心，以及粗談我選擇的主題 - [https://ithelp.ithome.com.tw/articles/10190579](https://ithelp.ithome.com.tw/articles/10190579)
 
 **[Day2]** 編寫中 - []()
 

@@ -16,7 +16,7 @@
 
 **[Day1]** 第二次參加鐵人賽的決心，以及粗談我選擇的主題 - [https://ithelp.ithome.com.tw/articles/10190579](https://ithelp.ithome.com.tw/articles/10190579)
 
-**[Day2]** 編寫中 - []()
+**[Day2]** 編寫中 - [編寫中](https://tinatyc.github.io/King-Ironman-30Day-Challenge/page/Day_2)
 
 
 

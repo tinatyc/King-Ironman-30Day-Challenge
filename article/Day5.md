@@ -6,14 +6,14 @@
 昨兒做出我們基本的地圖之後 [傳送門](https://tinatyc.github.io/King-Ironman-30Day-Challenge/page/Day_2/)
 如果覺得很無聊、單調，這些Maps API都可以做的到你想要的樣子～
 
-**那今天就來做自訂的Marker練習吧～**
+**那今天就來做自訂的Marker練習吧～**![/images/emoticon/emoticon07.gif](/images/emoticon/emoticon07.gif)
 
 ---
 > #### 起始式
 
 如果沒有另外設定的話，呼叫`google.maps.Marker`的API
 基本google提供的地圖Marker(標記)就長這樣↓
-![https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day3/sample_icon/default_marker.png?raw=true](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day3/sample_icon/default_marker.png?raw=true)
+![https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day5/sample_icon/default_marker.png?raw=true](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day5/sample_icon/default_marker.png?raw=true)
 
 
 那你一定想：
@@ -25,7 +25,7 @@
 >  iconshock [https://www.iconshock.com/](https://www.iconshock.com/)
 
 `想練習的話可以先下載幾個來，我先下載了4個ICON待會來做示範`
-![https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day3/sample_icon/pointer.png?raw=true](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day3/sample_icon/pointer.png?raw=true)![https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day3/sample_icon/star.png?raw=true](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day3/sample_icon/star.png?raw=true)![https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day3/sample_icon/wizard.png?raw=true](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day3/sample_icon/wizard.png?raw=true)![https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day3/sample_icon/zoom.png?raw=true](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day3/sample_icon/zoom.png?raw=true)
+![https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day5/sample_icon/pointer.png?raw=true](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day5/sample_icon/pointer.png?raw=true)![https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day5/sample_icon/star.png?raw=true](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day5/sample_icon/star.png?raw=true)![https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day5/sample_icon/wizard.png?raw=true](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day5/sample_icon/wizard.png?raw=true)![https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day5/sample_icon/zoom.png?raw=true](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day5/sample_icon/zoom.png?raw=true)
 
 ---
 > #### 你有Free Style嗎？
@@ -67,7 +67,7 @@ var marker = new google.maps.Marker({
 
 ```
 那Google的範例是設了幾個經緯度，用陣列的方式依序用forEach印出來位置
-~~ 我就不這麼做了XD，練習要創新啊～ ~~
+~~我就不這麼做了，用笨笨的方法寫XD~~![/images/emoticon/emoticon05.gif](/images/emoticon/emoticon05.gif)
 
 > 練習Time
 
@@ -79,39 +79,171 @@ var marker = new google.maps.Marker({
 **初始位置**
 Lat：25.046891
 Lng：121.516602
-Marker：![https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day3/sample_icon/default_marker.png?raw=true](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day3/sample_icon/default_marker.png?raw=true)
+Marker：![https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day5/sample_icon/default_marker.png?raw=true](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day5/sample_icon/default_marker.png?raw=true)
 
 **第一次迴圈**
 Lat：25.051891
 Lng：121.521602
-Marker：![https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day3/sample_icon/pointer.png?raw=true](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day3/sample_icon/pointer.png?raw=true)
+Marker：![https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day5/sample_icon/pointer.png?raw=true](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day5/sample_icon/pointer.png?raw=true)
 
 **第二次迴圈**
 Lat：25.056891
 Lng：121.526602
-Marker：![https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day3/sample_icon/star.png?raw=true](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day3/sample_icon/star.png?raw=true)
+Marker：![https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day5/sample_icon/star.png?raw=true](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day5/sample_icon/star.png?raw=true)
 
 **第三次迴圈**
 Lat：25.061891
 Lng：121.531602
-Marker：![https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day3/sample_icon/wizard.png?raw=true](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day3/sample_icon/wizard.png?raw=true)
+Marker：![https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day5/sample_icon/wizard.png?raw=true](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day5/sample_icon/wizard.png?raw=true)
 
 **第四次迴圈**
 Lat：25.066891
 Lng：121.536602
-Marker：![https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day3/sample_icon/zoom.png?raw=true](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day3/sample_icon/zoom.png?raw=true)
+Marker：![https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day5/sample_icon/zoom.png?raw=true](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/page/day5/sample_icon/zoom.png?raw=true)
 
-我們的成品～
+我們的成品～![/images/emoticon/emoticon42.gif](/images/emoticon/emoticon42.gif)
 ![https://media.giphy.com/media/3oxHQpAnv5lx4tuzKM/giphy.gif](https://media.giphy.com/media/3oxHQpAnv5lx4tuzKM/giphy.gif)
 giphy大圖連結 [http://gph.is/2B8l2He](http://gph.is/2B8l2He)
 
 現在我們做到`多個Marker的功能`、`Marker變成我們自訂的樣式`了～
 **下一次來賦予Marker實質的互動吧～**
-**先在此斷尾囉.....**
+**先在此斷尾囉.....**![/images/emoticon/emoticon10.gif](/images/emoticon/emoticon10.gif)
 
 ---
 
 > 附上完整程式碼
 
-**Demo連結：**[https://tinatyc.github.io/King-Ironman-30Day-Challenge/page/Day_2/](https://tinatyc.github.io/King-Ironman-30Day-Challenge/page/Day_2/)
+**Demo連結：**[https://tinatyc.github.io/King-Ironman-30Day-Challenge/page/day5/](https://tinatyc.github.io/King-Ironman-30Day-Challenge/page/day5/)
+
 ```
+
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>King Tzeng的鐵人地圖</title>
+    <style type="text/css" media="screen">
+    html {
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    }
+
+    #map {
+        position: absolute;
+        left: 0;
+        height: 80%;
+        width: 100vw;
+    }
+
+    #body {
+        height: 100%;
+        width: 100vw;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    h1, h2{
+        text-align: center;
+    }
+    h2{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.45);
+    }
+    </style>
+</head>
+
+<body>
+    <div class="body">
+        <h1>King Tzeng的鐵人地圖</h1>
+        <h2>自訂Marker練習</h2>
+        <div id="map"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+
+    function initMap() {
+        var latlng = { lat: 25.046891, lng: 121.516602 }; // 台北車站的經緯度
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 14, //放大的倍率
+            center: latlng //初始化的地圖中心位置
+        });
+        var marker = new google.maps.Marker({
+            position: latlng,
+            map: map
+        });
+
+        var icon_path = "sample_icon/";
+        var icons={
+            pointer:{
+                name:'pointer',
+                icon:icon_path + "pointer.png"
+            },
+            star:{
+                name:'star',
+                icon:icon_path + "star.png"
+            },
+            wizard:{
+                name:'wizard',
+                icon:icon_path + "wizard.png"
+            },
+            zoom:{
+                name:'zoom',
+                icon:icon_path + "zoom.png"
+            }
+        };
+        //--------下面是呼叫一個新marker------
+        for (var i = 0; i <= 3; i++) {
+            lat = latlng.lat - 0.005;
+            lng = latlng.lng - 0.005;
+            latlng = { lat: lat, lng: lng};
+            console.log(lat.toFixed(6));
+            console.log(lng.toFixed(6));
+            console.log(i);
+            
+            if( i == 0){
+                var marker = new google.maps.Marker({
+                    position: latlng, //marker的放置位置
+                    icon:icons.pointer.icon,
+                    map: map
+                });
+            }else if( i== 1){
+                var marker = new google.maps.Marker({
+                    position: latlng, //marker的放置位置
+                    icon:icons.star.icon,
+                    map: map
+                });
+            }else if( i == 2){
+                var marker = new google.maps.Marker({
+                    position: latlng, //marker的放置位置
+                    icon:icons.wizard.icon,
+                    map: map
+                });
+            }else{
+                var marker = new google.maps.Marker({
+                    position: latlng, //marker的放置位置
+                    icon:icons.zoom.icon,
+                    map: map
+                });
+            }
+        }
+    }   //init_end
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_Za7RqKvUuEg2Nln0EcpUVN3k2fZtDuE&callback=initMap">
+    </script>
+</body>
+
+</html>
+
+```
+---
+## 文後-
+
+這樣寫程式好笨重喔....下次我會改進的....![/images/emoticon/emoticon20.gif](/images/emoticon/emoticon20.gif)
+
+實作Demo目錄 on [GitHub](https://tinatyc.github.io/King-Ironman-30Day-Challenge/)
+同步刊登於[King 學習前端之人生](https://kingweblife.blogspot.com/)
+[ 著作權為King Tzeng所有，請勿抄襲或致敬＝口＝]

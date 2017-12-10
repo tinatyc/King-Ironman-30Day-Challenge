@@ -48,7 +48,16 @@
 > 練習Time
 
 所以練習寫顯示目前位置的地圖~
+![https://media.giphy.com/media/l1Kdavz0fSoaJOZNK/giphy.gif](https://media.giphy.com/media/l1Kdavz0fSoaJOZNK/giphy.gif)
+giphy大圖連結 [http://gph.is/2jhOjZf](https://media.giphy.com/media/l1Kdavz0fSoaJOZNK/giphy.gif)
 
+**趕快在deadline前斷尾（逃....**
+
+---
+
+> 附上完整程式碼
+
+**Demo連結：**[https://tinatyc.github.io/King-Ironman-30Day-Challenge/page/day7/](https://tinatyc.github.io/King-Ironman-30Day-Challenge/page/day7/)
 ```
 <!DOCTYPE html>
 <html lang="zh-tw">
@@ -138,3 +147,11 @@
 
 
 ```
+---
+## 文後-
+
+為啥我的GIF一直弄不好![/images/emoticon/emoticon20.gif](/images/emoticon/emoticon20.gif)
+
+實作Demo目錄 on [GitHub](https://tinatyc.github.io/King-Ironman-30Day-Challenge/)
+同步刊登於[King 學習前端之人生](https://kingweblife.blogspot.com/)
+[ 著作權為King Tzeng所有，請勿抄襲或致敬＝口＝]

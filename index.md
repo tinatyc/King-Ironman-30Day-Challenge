@@ -19,3 +19,5 @@
 **[Day4]** 實作基本地圖 - [https://tinatyc.github.io/King-Ironman-30Day-Challenge/page/Day_2/](https://tinatyc.github.io/King-Ironman-30Day-Challenge/page/Day_2/)
 
 **[Day5]** 自訂Marker練習 - [https://tinatyc.github.io/King-Ironman-30Day-Challenge/page/day5/](https://tinatyc.github.io/King-Ironman-30Day-Challenge/page/day5/)
+
+**[Day7]** 抓取當前位置練習 - [https://tinatyc.github.io/King-Ironman-30Day-Challenge/page/day7/](https://tinatyc.github.io/King-Ironman-30Day-Challenge/page/day7/)

@@ -10,13 +10,13 @@
     html {
         height: 100%;
         width: 100%;
+        background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
     }
 
     #map {
         position: absolute;
-        top: 25%;
         left: 0;
-        height: 75%;
+        height: 80%;
         width: 100vw;
     }
 
@@ -27,31 +27,91 @@
         top: 0;
         left: 0;
     }
+    h1, h2{
+        text-align: center;
+    }
+    h2{
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.45);
+    }
     </style>
 </head>
 
 <body>
     <div class="body">
         <h1>King Tzeng的鐵人地圖</h1>
+        <h2>自訂Marker練習</h2>
         <div id="map"></div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>
+
     function initMap() {
-        var Station_latlng = { lat: 25.046891, lng: 121.516602 }; // 台北車站的經緯度
+        var latlng = { lat: 25.046891, lng: 121.516602 }; // 台北車站的經緯度
         var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 14, //放大的倍率
-            center: Station_latlng //初始化的地圖中心位置
+            center: latlng //初始化的地圖中心位置
         });
-
-        //--------下面是呼叫一個新marker------
-
         var marker = new google.maps.Marker({
-            position: Station_latlng, //marker的放置位置
-            map: map //這邊的map指的是第四行的map變數
+            position: latlng,
+            map: map
         });
 
-    }
+        var icon_path = "sample_icon/";
+        var icons={
+            pointer:{
+                name:'pointer',
+                icon:icon_path + "pointer.png"
+            },
+            star:{
+                name:'star',
+                icon:icon_path + "star.png"
+            },
+            wizard:{
+                name:'wizard',
+                icon:icon_path + "wizard.png"
+            },
+            zoom:{
+                name:'zoom',
+                icon:icon_path + "zoom.png"
+            }
+        };
+        //--------下面是呼叫一個新marker------
+        for (var i = 0; i <= 3; i++) {
+            lat = latlng.lat - 0.005;
+            lng = latlng.lng - 0.005;
+            latlng = { lat: lat, lng: lng};
+            console.log(lat.toFixed(6));
+            console.log(lng.toFixed(6));
+            console.log(i);
+            
+            if( i == 0){
+                var marker = new google.maps.Marker({
+                    position: latlng, //marker的放置位置
+                    icon:icons.pointer.icon,
+                    map: map
+                });
+            }else if( i== 1){
+                var marker = new google.maps.Marker({
+                    position: latlng, //marker的放置位置
+                    icon:icons.star.icon,
+                    map: map
+                });
+            }else if( i == 2){
+                var marker = new google.maps.Marker({
+                    position: latlng, //marker的放置位置
+                    icon:icons.wizard.icon,
+                    map: map
+                });
+            }else{
+                var marker = new google.maps.Marker({
+                    position: latlng, //marker的放置位置
+                    icon:icons.zoom.icon,
+                    map: map
+                });
+            }
+        }
+    }   //init_end
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_Za7RqKvUuEg2Nln0EcpUVN3k2fZtDuE&callback=initMap">
     </script>

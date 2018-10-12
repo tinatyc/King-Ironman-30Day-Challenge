@@ -1,3 +1,5 @@
 {
-  "editor.fontSize": 17
+  "editor.fontSize": 17,
+  "liveServer.settings.host": "localhost",
+  "liveServer.settings.port": 8080
 }

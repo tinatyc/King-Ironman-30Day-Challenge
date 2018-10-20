@@ -1,7 +1,7 @@
 ## 繼續昨天
 ---
 
-首先分享一篇Alex大大分享給我們的文章   
+首先分享一篇[Alex大大](https://ithelp.ithome.com.tw/users/20111576/ironman)分享給我們的文章   
 
 「 Wireframe 誰都會畫？   
 [https://medium.com/@teddeng/wireframe-%E8%AA%B0%E9%83%BD%E6%9C%83%E7%95%AB-466b671d82b4](https://medium.com/@teddeng/wireframe-%E8%AA%B0%E9%83%BD%E6%9C%83%E7%95%AB-466b671d82b4) 」
@@ -12,7 +12,7 @@
 **但因為這個網站在紙本畫的圖不見了，我分享別個作品一樣是我畫的Wireframe線稿圖....Orz(崩潰)**
 
 _第一次畫的Wireframe（非此作品）_
-![第一次畫的Wireframe](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day5_wirefream.jpg?raw=true)
+![第一次畫的Wireframe](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day5_Wireframe.jpg?raw=true)
 
 _改版後畫的Wireframe（非此作品）_
 ![改版後畫的Wireframe](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day5_Wireframe2.jpg?raw=true)
@@ -25,7 +25,7 @@ _改版後畫的Wireframe（非此作品）_
 像我都會列印稿紙直接紙上作業，這樣對思考也是比較有幫助的～   
 畫完wirframe後，把自己當作是使用者或者請朋友幫忙看一下哪裡怪怪的即時修正，再來用Sketch、PhotoShop 來Layout等等可減少較多時間喔～
 
-![3flab_Wirframe]()https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day5_3flab.gif?raw=true
+![3flab_Wirframe](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day5_3flab.gif?raw=true)
 
 ### Wireframe的重要性？
 

@@ -1,8 +1,9 @@
 ## 網站核心功能 - WebRTC
 ---
 
+![day12](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/%E5%B8%82%E5%A0%B4%E9%A9%97%E8%AD%89%E7%B0%A1%E5%A0%B1give_me_find_OD-97200111.015.jpeg?raw=true)
 
-Give me Find服務平台主打的項目之一就是不用下載app，
+> Give me Find服務平台主打的項目之一就是不用下載app，
 直接瀏覽網頁按照引導流程就能找到浪浪的身分、主人等等～
 
 其中一個關鍵的技術就是使用網頁開啟相機掃描QRCode

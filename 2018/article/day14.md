@@ -1,8 +1,8 @@
 ## instascan的介紹
 ---
 
-今天要大略解析一下instascan這個專案。
-前幾天有Demo了我串[instascan](https://github.com/schmich/instascan)之後的成果[傳送門](https://ithelp.ithome.com.tw/articles/10205709)，主要是`實現跨平台可以實現一樣的功能- **使用網頁開啟相機掃描QRCode** `!
+今天要大略解析一下[instascan](https://github.com/schmich/instascan)這個專案。
+前幾天有Demo了我串[instascan](https://github.com/schmich/instascan)之後的成果([傳送門](https://ithelp.ithome.com.tw/articles/10205709))，主要是`實現跨平台可以實現一樣的功能-使用網頁開啟相機掃描QRCode`!
 
 那麼[instascan](https://github.com/schmich/instascan)又是用什麼技術組成的呢？    
 且待我略薄的分析一下....
@@ -27,18 +27,19 @@
 最重要是我們的手機瀏覽器來看一下支援度如何～
 ![Can I use_WebRTC_mobile](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day14_2.png?raw=true)   
     
-iOS Safari 自從iOS11開始支援WebRTC
+iOS Safari 從iOS11起開始支援WebRTC，但真心覺得每次用在手機上都怪怪的...
 補充說明，在上面有說因為iOS和手機版的Safari是綁定在一起的，所以指的是`手機系統版本`。
 ![Can I use_WebRTC_iOS](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day14_3.png?raw=true)   
     
 其餘像是Android Browser支援度也是都還蠻高的，在做Give Me Find專案的那時候還沒有到iOS11，只是剛要出而已....  
-所以那時候就很傷腦筋，這樣iPhone不支援網站怎麼辦...要怎麼Demo啊！！(因為我是用iPhone手機)  蘋果不轉人來轉，於是就衍生了另外一種查詢的方式。   
+所以那時候就很傷腦筋，這樣iPhone不支援網站怎麼辦...要怎麼Demo啊！！![/images/emoticon/emoticon04.gif](/images/emoticon/emoticon04.gif)(因為我是用iPhone手機)
+蘋果不轉人來轉，於是就衍生了另外一種查詢的方式，後面在說明吧～   
 
-我個人覺得WebRTC還蠻有趣的，將來應該是一個趨勢！   
+**我個人覺得WebRTC還蠻有趣的，將來應該是一個趨勢！**   
 
 因為物極必反！現在太多APP形成一種亂象，有點像是免洗APP的概念，想使用一種服務有太多可以選擇了....    
 就是因為太多太亂，消費者不知道自己裝了什麼也不想冒險裝一個應用程式在手機裡！   
-所以網頁應用需求上升，這東西將來應該蠻有發展潛力的，我要等我明年寫鐵人賽的時候再回來看是否像我說的一樣XD   
+所以網頁應用需求上升，這東西將來應該蠻有發展潛力的，我要等我明年寫鐵人賽的時候再回來看是否像我說的一樣![/images/emoticon/emoticon39.gif](/images/emoticon/emoticon39.gif)   
 
 這裡有蠻多WebRTC的[Demo](https://webrtc.github.io/samples/)，這些我就不錄影了，請看官們自行用桌電和手機開起來玩玩看囉～
      
@@ -110,4 +111,49 @@ github裡有提供完整的範例html，講解一下
 </body>
 </html>
 ```
-做出來的成品就會像這樣
+--- 
+
+### 做出來的成品就會像這樣
+
+[Demo連結](https://tinatyc.github.io/King-Ironman-30Day-Challenge/2018/page/day14/)
+
+**開啟網頁會先問你是否允許開啟相機**
+![Demo](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day14_4.png?raw=true)
+
+**允許後就可以看到開啟相機了**
+![Demo](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day14_5.png?raw=true)
+
+**QRCode準備好，掃下去！**
+![Demo](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day14_6.gif?raw=true)
+可以看到開發者工具裡的Console裡印出文字了！(~~這個網址是我的個網~~)
+代表可以確實的掃到了QRCode![/images/emoticon/emoticon12.gif](/images/emoticon/emoticon12.gif)
+
+好啦～這是這個套件的用法～
+目前Give me Find服務平台有用到的還有置換前後鏡頭，是想要在寫一個瞄準時有框框出現但是還沒有時間寫....
+想要玩更多的應用請至作者的github裡看api用法，或者是WebRTC網站～
+
+今天就寫到這邊了～
+
+**希望大家有什麼想知道的內容，歡迎在底下留言讓我知道，感激不盡！**
+
+
+## 文後
+
+---
+
+不要問我為什麼遮臉，身為宅魯工程師是不能曝光的（欸？！
+
+---
+
+### 團隊主題連結
+
+> CssCoke - **Amos 老師**
+>
+> - 影片教學組- **[金魚都能懂的網頁設計入門 - 金魚都能懂了你還怕學不會嗎](https://ithelp.ithome.com.tw/users/20112550/ironman/2072)**
+> - Modern Web- **[連續 30 天的超實務網頁設計的垂直置中教學](https://ithelp.ithome.com.tw/users/20112550/ironman/2092)**
+
+> 塔塔默
+>
+> - Modern Web- **[使用 Leaflet 及 Folium 開啟網頁地圖大門](https://ithelp.ithome.com.tw/users/20112552/ironman/2074)**
+
+---

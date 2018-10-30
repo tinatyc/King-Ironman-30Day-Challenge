@@ -1,6 +1,8 @@
 ## 複選期尾聲
 ---
 
+![img](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day15_3.jpg?raw=true)
+
 複賽需要準備的都差不多了，簡報、最小可行性產品等.....
 也大概演練一下要怎麼上台報告，簡報用`黃金圈理論`的方式來作簡報產品。
 
@@ -57,3 +59,7 @@
 
 時間到！很準時的趕你出去不能在發表了，這些日子的壓力可以稍微鬆懈一下了～I do my best!
 
+*比賽完和看板留個影，~~因為瞇眼了只好打馬賽克~~*
+![複賽](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day15_4.jpg?raw=true)
+
+---

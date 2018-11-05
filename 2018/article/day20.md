@@ -1,4 +1,3 @@
-[day20]-假日分享系列之「AWS EC2架站之Virtual Host設定子網域」
 ## AWS EC2 虛擬主機設定子網域
 ---
 

@@ -3,8 +3,9 @@
 
 這次的的WorkShop是商業化實作坊-UI/UX訓練，主要就是來檢視參賽者的視覺設計、產品的使用者經驗好不好，
 請到的是台灣Yahoo的子公司-Oath的老師來和我們講述設計準則以及產品的創意發想＆設計等等...
-
-
+![img](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day21_1.jpg?raw=true)
+    
+   
 ### 設計的流程-UI部分
 
 [UI](https://zh.wikipedia.org/wiki/%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2) (User Interface - 使用者介面)，與[UX](https://zh.wikipedia.org/wiki/%E4%BD%BF%E7%94%A8%E8%80%85%E7%B6%93%E9%A9%97)(User experience - 使用者經驗) 兩個是**大不同的東西**！    
@@ -80,7 +81,8 @@ _在以前還沒接觸過設計開發流程時，以為產品設計很簡單，�
 今天先寫到這邊了，下一集來講產品的設計策略與驗證。
 
 **希望大家有什麼想知道的內容，歡迎在底下留言讓我知道，感激不盡！**
-
+    
+    
 ## 文後
 
 ---

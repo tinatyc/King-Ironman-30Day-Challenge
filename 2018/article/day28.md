@@ -44,7 +44,10 @@
 
 - Firebase端
 先到`Firebase`主控台 → 開啟「"開發"-`Authentication`」選擇登入方式 → 點選`Facebook`項目，啟用 → `應用程式ID`請填Facebook主控台所提供該應用程式的編號 → 記得儲存設定
+![img](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day28_3.png?raw=true)
    
    
 - Facebook developers端
 至該應用程式的主控版端加入產品 → Facebook登入 → 點選設定 → 把剛剛的`OAuth 重新導向 URI`貼上→ 儲存設定
+![img](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day28_4.png?raw=true)
+

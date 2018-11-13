@@ -51,3 +51,34 @@
 至該應用程式的主控版端加入產品 → Facebook登入 → 點選設定 → 把剛剛的`OAuth 重新導向 URI`貼上→ 儲存設定
 ![img](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day28_4.png?raw=true)
 
+這是兩邊主控台設定的部分～
+    
+由於在寫這篇文章的時候，一邊實作程式登入
+發現好像Facebook不能用`http`去做登入的動作，要用`https`，不知道是不是這個原因導致我在開發環境無法登入
+![img](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day28_5.png?raw=true)
+
+今天文章先寫到這邊好了...來去驗證一下(跑...)
+
+**希望大家有什麼想知道的內容，歡迎在底下留言讓我知道，感激不盡！**    
+    
+
+## 文後
+
+---
+
+燃起debug魂！！（可惡！！
+
+---
+
+### 團隊主題連結
+
+> CssCoke - **Amos 老師**
+>
+> - 影片教學組- **[金魚都能懂的網頁設計入門 - 金魚都能懂了你還怕學不會嗎](https://ithelp.ithome.com.tw/users/20112550/ironman/2072)**
+> - Modern Web- **[連續 30 天的超實務網頁設計的垂直置中教學](https://ithelp.ithome.com.tw/users/20112550/ironman/2092)**
+
+> 塔塔默
+>
+> - Modern Web- **[使用 Leaflet 及 Folium 開啟網頁地圖大門](https://ithelp.ithome.com.tw/users/20112552/ironman/2074)**
+
+---

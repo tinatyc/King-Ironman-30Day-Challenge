@@ -19,7 +19,7 @@
 
 > 系統：MaxOS
 開發環境：[MAMP Ver3.4 ](https://www.mamp.info/en/)
-![img](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day29_5.jpg?raw=true)
+![img](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day29_5.png?raw=true)
 
 一開始我是看這一篇youtube教學的：
 > [Free HTTPS / SSL Support for MAMP over localhost](https://youtu.be/886Pea2ljm0)
@@ -109,7 +109,6 @@ openssl x509 -req -in server.csr -CA rootCA.pem -CAkey rootCA.key -CAcreateseria
 1. 在開放哪個port的地方原本應該是80或是其他的，改成`443 port`
 ```
 Listen 443
-
 ```
 ![img](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day29_7.png?raw=true)
 
@@ -165,22 +164,24 @@ SSLCertificateKeyFile "放憑證的路徑/server.crt"
 
 1.把憑證拖拉到桌面，雙擊兩下開啟"鑰匙圈存取"(MacOS)，再把剛剛的憑證拖進"系統"憑證裡(記得要把左上的鎖打開給權限)。
 ![img](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day29_1_2.jpg?raw=true)
-![img](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day29_9.jpg?raw=true)
+![img](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day29_9.png?raw=true)
 
 2.打開信任選項，選擇"使用此憑證時：「永遠信任」"選項
-![img](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day29_10.jpg?raw=true)
+![img](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day29_10.png?raw=true)
 
 --- 
 
 ### 4. 完成
 
+
 打開`https:localhost/`，憑證已生效，代表完成，已經可以用https來做連線了～
-![img](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day29_11.jpg?raw=true)
-![img](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day29_12.jpg?raw=true)
+![img](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day29_11.png?raw=true)
+![img](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day29_12.png?raw=true)
+   
 ---
 
 其實除了這樣設定外，還有別種比較快速的作法，像是使用ngrok等...如果需要的人可以參考看看
-我做到現在會有一個新問題，就是https://localhost下會找不到路徑...Orz
+我做到現在會有一個新問題，就是`https://localhost`下會找不到路徑...Orz
 先做到這邊了，今天實在太累了狂截圖做圖....Orz
 
 **希望大家有什麼想知道的內容，歡迎在底下留言讓我知道，感激不盡！**    

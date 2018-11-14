@@ -127,12 +127,15 @@ firebase.auth().signInWithPopup(provider).then(function(result) {
 ![img](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day30_8.png?raw=true)
 
 Demo演示，可以看到我輸入帳號之後會進行重新導向，資料會傳輸到Firebase，FB端則是驗證OK，回傳用戶資料出來～
-![img](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day30_8.png?raw=true)
+![img](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day30_1.gif?raw=true)
 
-到這邊終於完成我們Facebook登入結合Firebase Authentication了！！！
-我以為雪恥戰會失敗...因為中間實在遇到太多難題了，成功完成太爽了！！
+**到這邊終於完成我們Facebook登入結合Firebase Authentication了!!!**
+我以為雪恥戰會失敗...因為中間實在遇到太多難題了，成就感十足啊～
+   
+---
 
 ### 2018年底 -
+
 今年度的鐵人賽也到此結束了～
 
 很開心今年可以和我的老師 - `Amos師父`還有推坑團教友 - `塔塔默`，一起組隊參加這次的鐵人賽（愛心～
@@ -150,12 +153,13 @@ _PS:我在直播裡的小名是17(念e chi)，取自我名字英綺的諧音，�
 感謝Amos老師的**阿摩斯的推坑教**裡的各方大大們，也感謝你們平日的解答～
 最後還要感謝前端的朋友，互相交流切磋技術，在Alex同學見面會上認識的大家！感謝你們的鼓勵！
 
-2018年底，鐵人賽落幕啦！！最後我用這張gif圖來對我的師父也是我們團長致敬！
-謝謝各位～頒獎大會見了～～再見！！
+2018年底，鐵人賽落幕啦！！
+最後我用這張gif圖來對我的師父也是我們團長致敬！謝謝各位～頒獎大會見了～～再見！！
 
 *圖片提供者：[ 阿摩斯的推坑教 - 鐵 ]製作*
 ![img](https://github.com/tinatyc/King-Ironman-30Day-Challenge/blob/master/2018/article/img/day30_2.gif?raw=true)
-
+   
+   
 ## 文後
 
 ---
